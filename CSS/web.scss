@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0px 50px 0px 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+}
+
+.col-lg-6 {
+    width: 50%;
+    margin: 0px 5px 0px 5px;
+}
+
+.col-lg-2 {
+    width: 16.666666%;
+}
+
+
+/* main code */
+
+
+/* section-01 */
+
+#navbar {
+    background-color: black;
+    color: #ffffff;
+    position: sticky;
+    padding: 20px 0px 10px 0px;
+}
+
+#navbar ul {
+    justify-content: center;
+}
+
+#navbar h1 {
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.col-lg-3 button {
+    background-color: green;
+    width: 50px;
+    height: 25px;
+    border: none;
+    padding: 2px 60px 2px 5px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.col-lg-3 input {
+    height: 25px;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid green;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* section-02 */
+
+#hero-part {
+    padding: 90px 0px 50px 0px;
+    background-color: rgb(207, 248, 248);
+}
+
+.col-lg-6 {
+    h1 {
+        margin: 0px 0px 30px 0px;
+    }
+    p {
+        margin: 20px 0px 10px 0px;
+        text-align: justify;
+        line-height: 20px;
+        letter-spacing: 2px;
+        color: rgb(163, 162, 162);
+    }
+    button {
+        margin: 30px 0px 0px 0px;
+        color: white;
+        background-color: rgb(18, 183, 224);
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    img {
+        background-size: cover;
+        border-radius: 50%;
+        width: 35vw;
+        height: 70vh;
+    }
+}
+
+// section-03
+#course-content {
+    margin: 100px 0px 30px 0px;
+}
+
+#course-content {
+    img {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background: 100%;
+        width: 80%;
+        height: 50%;
+        border-radius: 10px;
+    }
+    h1 {
+        margin: 10px 0px 10px 0px;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    button {
+        padding: 5px 50px 0px 10px;
+        color: #ffffff;
+        border-radius: 0%;
+        margin: 0px 0px 30px 0px;
+        text-align: center;
+        background-color: rgb(42, 127, 224);
+    }
+    p {
+        margin: 10px 0px 20px 0px;
+        width: 80%;
+        color: rgb(80, 79, 79);
+    }
+}
